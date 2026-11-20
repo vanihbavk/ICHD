@@ -1,0 +1,67 @@
+{
+  "seed": 20261110,
+  "n_total_subjects": 67,
+  "n_train_subjects": 54,
+  "n_test_subjects": 13,
+  "n_test_hc": 8,
+  "n_test_hfc": 5,
+  "n_train_episodes": 811,
+  "n_test_episodes": 207,
+  "test_subjects": [
+    "HC_11",
+    "HC_14",
+    "HC_17",
+    "HC_3",
+    "HC_32",
+    "HC_34",
+    "HC_37",
+    "HC_9",
+    "HFC_102",
+    "HFC_110",
+    "HFC_111",
+    "HFC_121",
+    "HFC_133"
+  ],
+  "holdout_results": {
+    "ECG-Only": {
+      "r_sv": 0.378,
+      "r_co": 0.793,
+      "r_svr": 0.64,
+      "auc": 0.895,
+      "accuracy_pct": 85.0,
+      "closure_gap_nat": 0.0
+    },
+    "PAT-Only": {
+      "r_sv": 0.547,
+      "r_co": 0.826,
+      "r_svr": 0.58,
+      "auc": 0.88,
+      "accuracy_pct": 84.1,
+      "closure_gap_nat": 0.0
+    },
+    "Chest-ECG+SCG": {
+      "r_sv": 0.661,
+      "r_co": 0.859,
+      "r_svr": 0.649,
+      "auc": 0.905,
+      "accuracy_pct": 85.5,
+      "closure_gap_nat": 0.0
+    },
+    "PPG-Only": {
+      "r_sv": 0.631,
+      "r_co": 0.865,
+      "r_svr": 0.689,
+      "auc": 0.902,
+      "accuracy_pct": 83.1,
+      "closure_gap_nat": 0.0
+    },
+    "ICHD-Full": {
+      "r_sv": 0.736,
+      "r_co": 0.895,
+      "r_svr": 0.677,
+      "auc": 0.902,
+      "accuracy_pct": 83.1,
+      "closure_gap_nat": 0.0
+    }
+  }
+}

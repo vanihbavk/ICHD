@@ -1,0 +1,34 @@
+{
+  "n_multi_session_subjects": 34,
+  "n_matched_maneuver_pairs": 127,
+  "variables": {
+    "dlog_sv": {
+      "test_retest_r": 0.418,
+      "p_val": 1.03e-06,
+      "theoretical_ceiling_r_max": 0.646,
+      "model_r_achieved": 0.637,
+      "fraction_of_ceiling_pct": 98.6
+    },
+    "dlog_co": {
+      "test_retest_r": 0.82,
+      "p_val": 4.5e-32,
+      "theoretical_ceiling_r_max": 0.906,
+      "model_r_achieved": 0.812,
+      "fraction_of_ceiling_pct": 89.7
+    },
+    "dlog_svr": {
+      "test_retest_r": 0.587,
+      "p_val": 4.03e-13,
+      "theoretical_ceiling_r_max": 0.766,
+      "model_r_achieved": 0.634,
+      "fraction_of_ceiling_pct": 82.7
+    },
+    "dlog_map": {
+      "test_retest_r": 0.489,
+      "p_val": 5.61e-09,
+      "theoretical_ceiling_r_max": 0.699,
+      "model_r_achieved": 0.257,
+      "fraction_of_ceiling_pct": 36.8
+    }
+  }
+}

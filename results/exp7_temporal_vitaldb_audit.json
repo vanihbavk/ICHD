@@ -1,0 +1,448 @@
+{
+  "temporal_all_s1_to_s2": {
+    "n_train_subjects": 66,
+    "n_train_episodes": 645,
+    "n_test_subjects": 35,
+    "n_test_episodes": 373,
+    "models": {
+      "HR-Only": {
+        "r_sv": 0.322,
+        "r_sv_ci": [
+          0.188,
+          0.439
+        ],
+        "r_co": 0.797,
+        "r_co_ci": [
+          0.744,
+          0.852
+        ],
+        "r_svr": 0.634,
+        "r_svr_ci": [
+          0.555,
+          0.703
+        ],
+        "dom_auc": 0.843,
+        "dom_auc_ci": [
+          0.791,
+          0.889
+        ],
+        "dom_acc": 0.7936
+      },
+      "ECG-Only": {
+        "r_sv": 0.399,
+        "r_sv_ci": [
+          0.285,
+          0.504
+        ],
+        "r_co": 0.812,
+        "r_co_ci": [
+          0.761,
+          0.861
+        ],
+        "r_svr": 0.647,
+        "r_svr_ci": [
+          0.562,
+          0.723
+        ],
+        "dom_auc": 0.844,
+        "dom_auc_ci": [
+          0.795,
+          0.889
+        ],
+        "dom_acc": 0.807
+      },
+      "PAT-Only": {
+        "r_sv": 0.48,
+        "r_sv_ci": [
+          0.335,
+          0.6
+        ],
+        "r_co": 0.825,
+        "r_co_ci": [
+          0.779,
+          0.868
+        ],
+        "r_svr": 0.625,
+        "r_svr_ci": [
+          0.542,
+          0.7
+        ],
+        "dom_auc": 0.837,
+        "dom_auc_ci": [
+          0.783,
+          0.886
+        ],
+        "dom_acc": 0.7989
+      },
+      "Chest-ECG+SCG": {
+        "r_sv": 0.534,
+        "r_sv_ci": [
+          0.44,
+          0.616
+        ],
+        "r_co": 0.838,
+        "r_co_ci": [
+          0.794,
+          0.881
+        ],
+        "r_svr": 0.649,
+        "r_svr_ci": [
+          0.571,
+          0.725
+        ],
+        "dom_auc": 0.862,
+        "dom_auc_ci": [
+          0.817,
+          0.902
+        ],
+        "dom_acc": 0.8097
+      },
+      "PPG-Only": {
+        "r_sv": 0.587,
+        "r_sv_ci": [
+          0.492,
+          0.672
+        ],
+        "r_co": 0.853,
+        "r_co_ci": [
+          0.818,
+          0.89
+        ],
+        "r_svr": 0.693,
+        "r_svr_ci": [
+          0.624,
+          0.754
+        ],
+        "dom_auc": 0.872,
+        "dom_auc_ci": [
+          0.837,
+          0.906
+        ],
+        "dom_acc": 0.8016
+      },
+      "Ear-PPG-Only": {
+        "r_sv": 0.645,
+        "r_sv_ci": [
+          0.54,
+          0.73
+        ],
+        "r_co": 0.868,
+        "r_co_ci": [
+          0.828,
+          0.905
+        ],
+        "r_svr": 0.656,
+        "r_svr_ci": [
+          0.578,
+          0.723
+        ],
+        "dom_auc": 0.864,
+        "dom_auc_ci": [
+          0.818,
+          0.904
+        ],
+        "dom_acc": 0.807
+      },
+      "ICHD-Full": {
+        "r_sv": 0.649,
+        "r_sv_ci": [
+          0.576,
+          0.716
+        ],
+        "r_co": 0.868,
+        "r_co_ci": [
+          0.835,
+          0.903
+        ],
+        "r_svr": 0.674,
+        "r_svr_ci": [
+          0.615,
+          0.73
+        ],
+        "dom_auc": 0.874,
+        "dom_auc_ci": [
+          0.841,
+          0.907
+        ],
+        "dom_acc": 0.7989
+      }
+    }
+  },
+  "temporal_disjoint_s1only_to_s2": {
+    "n_train_subjects": 32,
+    "n_train_episodes": 301,
+    "n_test_subjects": 35,
+    "n_test_episodes": 373,
+    "models": {
+      "HR-Only": {
+        "r_sv": 0.241,
+        "r_sv_ci": [
+          0.122,
+          0.348
+        ],
+        "r_co": 0.78,
+        "r_co_ci": [
+          0.721,
+          0.838
+        ],
+        "r_svr": 0.626,
+        "r_svr_ci": [
+          0.549,
+          0.692
+        ],
+        "dom_auc": 0.847,
+        "dom_auc_ci": [
+          0.793,
+          0.893
+        ],
+        "dom_acc": 0.807
+      },
+      "ECG-Only": {
+        "r_sv": 0.381,
+        "r_sv_ci": [
+          0.262,
+          0.49
+        ],
+        "r_co": 0.808,
+        "r_co_ci": [
+          0.758,
+          0.859
+        ],
+        "r_svr": 0.635,
+        "r_svr_ci": [
+          0.539,
+          0.71
+        ],
+        "dom_auc": 0.847,
+        "dom_auc_ci": [
+          0.798,
+          0.892
+        ],
+        "dom_acc": 0.7909
+      },
+      "PAT-Only": {
+        "r_sv": 0.506,
+        "r_sv_ci": [
+          0.364,
+          0.628
+        ],
+        "r_co": 0.833,
+        "r_co_ci": [
+          0.791,
+          0.873
+        ],
+        "r_svr": 0.594,
+        "r_svr_ci": [
+          0.506,
+          0.679
+        ],
+        "dom_auc": 0.832,
+        "dom_auc_ci": [
+          0.781,
+          0.879
+        ],
+        "dom_acc": 0.7989
+      },
+      "Chest-ECG+SCG": {
+        "r_sv": 0.394,
+        "r_sv_ci": [
+          0.28,
+          0.499
+        ],
+        "r_co": 0.804,
+        "r_co_ci": [
+          0.749,
+          0.857
+        ],
+        "r_svr": 0.631,
+        "r_svr_ci": [
+          0.544,
+          0.707
+        ],
+        "dom_auc": 0.849,
+        "dom_auc_ci": [
+          0.798,
+          0.894
+        ],
+        "dom_acc": 0.7802
+      },
+      "PPG-Only": {
+        "r_sv": 0.527,
+        "r_sv_ci": [
+          0.428,
+          0.62
+        ],
+        "r_co": 0.828,
+        "r_co_ci": [
+          0.79,
+          0.87
+        ],
+        "r_svr": 0.617,
+        "r_svr_ci": [
+          0.54,
+          0.69
+        ],
+        "dom_auc": 0.853,
+        "dom_auc_ci": [
+          0.816,
+          0.89
+        ],
+        "dom_acc": 0.7694
+      },
+      "Ear-PPG-Only": {
+        "r_sv": 0.607,
+        "r_sv_ci": [
+          0.496,
+          0.711
+        ],
+        "r_co": 0.854,
+        "r_co_ci": [
+          0.81,
+          0.897
+        ],
+        "r_svr": 0.627,
+        "r_svr_ci": [
+          0.552,
+          0.698
+        ],
+        "dom_auc": 0.859,
+        "dom_auc_ci": [
+          0.812,
+          0.9
+        ],
+        "dom_acc": 0.7855
+      },
+      "ICHD-Full": {
+        "r_sv": 0.597,
+        "r_sv_ci": [
+          0.515,
+          0.671
+        ],
+        "r_co": 0.85,
+        "r_co_ci": [
+          0.813,
+          0.89
+        ],
+        "r_svr": 0.609,
+        "r_svr_ci": [
+          0.534,
+          0.678
+        ],
+        "dom_auc": 0.853,
+        "dom_auc_ci": [
+          0.816,
+          0.89
+        ],
+        "dom_acc": 0.7802
+      }
+    },
+    "paired_dr_ear_vs_ppg": {
+      "dr": 0.08,
+      "ci": [
+        -0.006,
+        0.177
+      ],
+      "p_val": 0.079
+    },
+    "paired_dr_ear_vs_hr": {
+      "dr": 0.366,
+      "ci": [
+        0.257,
+        0.478
+      ],
+      "p_val": 0.001
+    }
+  },
+  "vitaldb_failure_audit": {
+    "n_cases": 35,
+    "feature_domain_shifts": {
+      "d_ppgf_amp": {
+        "r_auricle": 0.202,
+        "r_vdb_case_mean": -0.105,
+        "r_vdb_case_median": -0.136,
+        "vdb_negative_case_frac": 0.657,
+        "sd_auricle": 0.799,
+        "sd_vitaldb": 11.736,
+        "sd_ratio_vdb_over_aur": 14.69
+      },
+      "d_ppgf_slope": {
+        "r_auricle": 0.157,
+        "r_vdb_case_mean": -0.101,
+        "r_vdb_case_median": -0.114,
+        "vdb_negative_case_frac": 0.686,
+        "sd_auricle": 10.162,
+        "sd_vitaldb": 112.774,
+        "sd_ratio_vdb_over_aur": 11.1
+      },
+      "d_ppgf_area_raw": {
+        "r_auricle": 0.202,
+        "r_vdb_case_mean": -0.065,
+        "r_vdb_case_median": -0.101,
+        "vdb_negative_case_frac": 0.6,
+        "sd_auricle": 0.278,
+        "sd_vitaldb": 3.112,
+        "sd_ratio_vdb_over_aur": 11.19
+      },
+      "dlog_ppgf_amp": {
+        "r_auricle": 0.356,
+        "r_vdb_case_mean": -0.097,
+        "r_vdb_case_median": -0.135,
+        "vdb_negative_case_frac": 0.657,
+        "sd_auricle": 0.454,
+        "sd_vitaldb": 0.609,
+        "sd_ratio_vdb_over_aur": 1.34
+      },
+      "dlog_ppgf_slope": {
+        "r_auricle": 0.311,
+        "r_vdb_case_mean": -0.095,
+        "r_vdb_case_median": -0.133,
+        "vdb_negative_case_frac": 0.657,
+        "sd_auricle": 0.428,
+        "sd_vitaldb": 0.592,
+        "sd_ratio_vdb_over_aur": 1.38
+      },
+      "dlog_ppgf_area_raw": {
+        "r_auricle": 0.396,
+        "r_vdb_case_mean": -0.061,
+        "r_vdb_case_median": -0.062,
+        "vdb_negative_case_frac": 0.571,
+        "sd_auricle": 0.502,
+        "sd_vitaldb": 0.625,
+        "sd_ratio_vdb_over_aur": 1.25
+      },
+      "dlog_ppgf_dia_decay": {
+        "r_auricle": -0.213,
+        "r_vdb_case_mean": 0.141,
+        "r_vdb_case_median": 0.101,
+        "vdb_negative_case_frac": 0.312,
+        "sd_auricle": 0.533,
+        "sd_vitaldb": 0.938,
+        "sd_ratio_vdb_over_aur": 1.76
+      },
+      "dlog_ppgf_pat": {
+        "r_auricle": -0.209,
+        "r_vdb_case_mean": -0.13,
+        "r_vdb_case_median": -0.049,
+        "vdb_negative_case_frac": 0.657,
+        "sd_auricle": 0.137,
+        "sd_vitaldb": 0.115,
+        "sd_ratio_vdb_over_aur": 0.84
+      },
+      "dlog_hr": {
+        "r_auricle": -0.226,
+        "r_vdb_case_mean": -0.261,
+        "r_vdb_case_median": -0.374,
+        "vdb_negative_case_frac": 0.686,
+        "sd_auricle": 0.172,
+        "sd_vitaldb": 0.227,
+        "sd_ratio_vdb_over_aur": 1.32
+      }
+    },
+    "case_level_predictors": {
+      "spearman_r_pat_vs_r_sv_hr": -0.533,
+      "p_pat_vs_r_sv_hr": 0.001,
+      "spearman_r_ppg_vs_q_mean": -0.059,
+      "p_ppg_vs_q_mean": 0.7371
+    }
+  }
+}

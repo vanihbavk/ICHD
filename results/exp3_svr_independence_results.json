@@ -1,0 +1,56 @@
+{
+  "true_overall_r_svr_vs_neg_co": 0.834,
+  "true_overall_p_val": 0.0,
+  "maneuver_true_coupling": {
+    "exercise": {
+      "n": 197,
+      "r_svr_vs_neg_co": 0.79,
+      "p_val": 0.0,
+      "dlog_co_mean": 0.271,
+      "dlog_svr_mean": -0.202,
+      "dlog_map_mean": 0.069
+    },
+    "cold_pressor": {
+      "n": 70,
+      "r_svr_vs_neg_co": 0.385,
+      "p_val": 0.001,
+      "dlog_co_mean": 0.017,
+      "dlog_svr_mean": 0.038,
+      "dlog_map_mean": 0.056
+    },
+    "valsalva": {
+      "n": 374,
+      "r_svr_vs_neg_co": 0.801,
+      "p_val": 0.0,
+      "dlog_co_mean": -0.087,
+      "dlog_svr_mean": 0.105,
+      "dlog_map_mean": 0.018
+    },
+    "breath_hold": {
+      "n": 377,
+      "r_svr_vs_neg_co": 0.778,
+      "p_val": 0.0,
+      "dlog_co_mean": -0.092,
+      "dlog_svr_mean": 0.054,
+      "dlog_map_mean": -0.038
+    }
+  },
+  "model_skills": {
+    "Chest-ECG+SCG": {
+      "r_svr_raw": 0.588,
+      "r_co_raw": 0.762,
+      "partial_r_svr_given_true_co": -0.083,
+      "partial_p_svr_given_true_co": 0.0081,
+      "partial_r_svr_given_pred_co": 0.086,
+      "partial_p_svr_given_pred_co": 0.006
+    },
+    "ICHD-Full": {
+      "r_svr_raw": 0.634,
+      "r_co_raw": 0.812,
+      "partial_r_svr_given_true_co": -0.002,
+      "partial_p_svr_given_true_co": 0.949,
+      "partial_r_svr_given_pred_co": 0.173,
+      "partial_p_svr_given_pred_co": 0.0
+    }
+  }
+}

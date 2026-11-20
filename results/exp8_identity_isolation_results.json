@@ -1,0 +1,197 @@
+{
+  "n_episodes": 1018,
+  "n_subjects": 67,
+  "baseline_projected": {
+    "r_sv": 0.594,
+    "ci": [
+      0.535,
+      0.65
+    ]
+  },
+  "variants": {
+    "1_subsystem_unprojected": {
+      "r_sv": 0.547,
+      "ci": [
+        0.48,
+        0.608
+      ],
+      "delta_r_vs_projected": -0.047,
+      "delta_r_ci": [
+        -0.078,
+        -0.017
+      ],
+      "p_boot": 0.005,
+      "closure_gap_mean": 0.0
+    },
+    "2_direct_full_features": {
+      "r_sv": 0.571,
+      "ci": [
+        0.514,
+        0.624
+      ],
+      "delta_r_vs_projected": -0.024,
+      "delta_r_ci": [
+        -0.065,
+        0.019
+      ],
+      "p_boot": 0.2849,
+      "closure_gap_mean": 0.0
+    },
+    "3_matched_unconstrained_stacker": {
+      "r_sv": 0.589,
+      "ci": [
+        0.53,
+        0.647
+      ],
+      "delta_r_vs_projected": -0.005,
+      "delta_r_ci": [
+        -0.02,
+        0.009
+      ],
+      "p_boot": 0.4848,
+      "closure_gap_mean": 0.0
+    },
+    "3b_matched_unconstrained_avg": {
+      "r_sv": 0.533,
+      "ci": [
+        0.451,
+        0.61
+      ],
+      "delta_r_vs_projected": -0.061,
+      "delta_r_ci": [
+        -0.111,
+        -0.018
+      ],
+      "p_boot": 0.004,
+      "closure_gap_mean": 0.0
+    },
+    "4_current_projected": {
+      "r_sv": 0.594,
+      "ci": [
+        0.535,
+        0.65
+      ],
+      "delta_r_vs_projected": 0.0,
+      "delta_r_ci": [
+        0.0,
+        0.0
+      ],
+      "p_boot": 1.0,
+      "closure_gap_mean": 0.0
+    },
+    "5_variant_a_no_h_diff": {
+      "r_sv": 0.596,
+      "ci": [
+        0.538,
+        0.651
+      ],
+      "delta_r_vs_projected": 0.001,
+      "delta_r_ci": [
+        -0.008,
+        0.012
+      ],
+      "p_boot": 0.7786,
+      "closure_gap_mean": 0.0
+    }
+  },
+  "w_map_grid_sweep": {
+    "wmap_0.0": {
+      "scale": 0.0,
+      "r_sv": 0.572,
+      "ci": [
+        0.507,
+        0.631
+      ],
+      "delta_r_vs_default": -0.023,
+      "delta_r_ci": [
+        -0.039,
+        -0.007
+      ],
+      "p_boot": 0.006
+    },
+    "wmap_0.05": {
+      "scale": 0.05,
+      "r_sv": 0.581,
+      "ci": [
+        0.517,
+        0.638
+      ],
+      "delta_r_vs_default": -0.014,
+      "delta_r_ci": [
+        -0.025,
+        -0.003
+      ],
+      "p_boot": 0.019
+    },
+    "wmap_0.1": {
+      "scale": 0.1,
+      "r_sv": 0.586,
+      "ci": [
+        0.525,
+        0.643
+      ],
+      "delta_r_vs_default": -0.008,
+      "delta_r_ci": [
+        -0.016,
+        -0.001
+      ],
+      "p_boot": 0.035
+    },
+    "wmap_0.25": {
+      "scale": 0.25,
+      "r_sv": 0.594,
+      "ci": [
+        0.535,
+        0.65
+      ],
+      "delta_r_vs_default": 0.0,
+      "delta_r_ci": [
+        0.0,
+        0.0
+      ],
+      "p_boot": 1.0
+    },
+    "wmap_0.5": {
+      "scale": 0.5,
+      "r_sv": 0.598,
+      "ci": [
+        0.539,
+        0.653
+      ],
+      "delta_r_vs_default": 0.003,
+      "delta_r_ci": [
+        -0.004,
+        0.01
+      ],
+      "p_boot": 0.3228
+    },
+    "wmap_1.0": {
+      "scale": 1.0,
+      "r_sv": 0.598,
+      "ci": [
+        0.539,
+        0.655
+      ],
+      "delta_r_vs_default": 0.004,
+      "delta_r_ci": [
+        -0.009,
+        0.016
+      ],
+      "p_boot": 0.5497
+    },
+    "wmap_2.0": {
+      "scale": 2.0,
+      "r_sv": 0.597,
+      "ci": [
+        0.535,
+        0.655
+      ],
+      "delta_r_vs_default": 0.003,
+      "delta_r_ci": [
+        -0.015,
+        0.019
+      ],
+      "p_boot": 0.7416
+    }
+  }
+}

@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Large raw and interim datasets (track checksums instead)
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+
+# Paper manuscript (hosted on Zenodo; kept local only)
+paper/
+
+# Logs and archives
+*.log
+.DS_Store
+logs/
+ICHD_review*

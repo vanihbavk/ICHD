@@ -1,0 +1,23 @@
+{
+  "n_hc_subjects": 42,
+  "n_hfc_subjects_lvef": 23,
+  "hc_exercise_d_pep_ms": -3.86,
+  "hfc_exercise_d_pep_ms": -2.26,
+  "hc_exercise_d_co_lpm": 2.4,
+  "hfc_exercise_d_co_lpm": 1.21,
+  "hfref_n": 12,
+  "hfref_lvef_mean": 27.5,
+  "hfref_d_pep_ms_mean": 3.44,
+  "hfref_d_co_lpm_mean": 0.95,
+  "hfpef_n": 11,
+  "hfpef_lvef_mean": 51.5,
+  "hfpef_d_pep_ms_mean": -4.65,
+  "hfpef_d_co_lpm_mean": 1.53,
+  "pep_diff_hfref_vs_hfpef_ms": 8.09,
+  "ttest_pep_t": 1.72,
+  "ttest_pep_p": 0.1001,
+  "corr_d_pep_vs_lvef_r": -0.311,
+  "corr_d_pep_vs_lvef_p": 0.1484,
+  "corr_d_pep_vs_lvef_rho": -0.23,
+  "corr_weissler_vs_lvef_rho": -0.191
+}
